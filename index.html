@@ -33,27 +33,27 @@
    <!-- Sidebar Menu -->
 <aside id="sidebar" class="fixed top-0 left-0 w-64 h-full bg-gray-900 z-50 transform -translate-x-full transition-transform duration-300">
   <div class="flex justify-between items-center p-4 border-b border-gray-700">
-    <h2 class="text-lg font-semibold">Menú</h2>
+    <h2 class="text-lg font-semibold">MenÃº</h2>
     <button onclick="toggleSidebar(false)" class="text-white text-xl">
-      ×
+      Ã—
     </button>
   </div>
   <nav class="flex flex-col space-y-4 p-4 flex-grow">
     <a href="https://zinecia.github.io/Home" class="hover:text-blue-400">Regresar</a>
     <a href="https://zinecia.github.io/Buscador/" class="hover:text-blue-400">Buscar</a>
-    <a href="https://zinecia.github.io/Movie" class="hover:text-blue-400">Películas</a>
+    <a href="https://zinecia.github.io/Movie" class="hover:text-blue-400">PelÃ­culas</a>
     <a href="https://zinecia.github.io/Favoritos/" class="hover:text-blue-400">Favoritos</a>
     <a href="https://cuentaappcreator.github.io/streaming/" class="hover:text-blue-400">Streaming</a>
   </nav>
 
-  <!-- Botón para cerrar menú al final -->
+  <!-- BotÃ³n para cerrar menÃº al final -->
   <div class="p-4 border-t border-gray-700">
     <button
       onclick="toggleSidebar(false)"
       class="w-full bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2 rounded"
-      aria-label="Cerrar menú"
+      aria-label="Cerrar menÃº"
     >
-      Cerrar menú
+      Cerrar menÃº
     </button>
   </div>
 </aside>
@@ -62,7 +62,7 @@
     <!-- Header -->
     <header class="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-3 py-2 bg-black">
 
-      <!-- Botón del menú -->
+      <!-- BotÃ³n del menÃº -->
       <button aria-label="Menu" class="text-white text-2xl" onclick="toggleSidebar(true)">
         <i class="fas fa-bars"></i>
       </button>
@@ -72,7 +72,7 @@
        <h1>FAMILIA</h1>
       </a>
 
-      <!-- Botón de búsqueda -->
+      <!-- BotÃ³n de bÃºsqueda -->
       <a href="https://zinecia.github.io/Buscador/"><button aria-label="Search" class="text-white text-2xl"> 
         <i class="fas fa-search"></i>
       </button></a>
@@ -84,6 +84,25 @@
       <div class="grid grid-cols-3 sm:grid-cols-[repeat(auto-fit,_minmax(140px,_1fr))] gap-3 mt-3">
 
         <!--PEGAR CONTENIDO AQUI ABAJO-->
+<!--INICIO-->
+<a href="https://lzuser01.github.io/contenido24/index.html"> 
+  <article class="flex flex-col items-center">
+    <div class="relative w-full">
+      <img
+        src="https://image.tmdb.org/t/p/w500/lDARMqluCrWaFgybY9KHLY96L3n.jpg"
+        alt="Poster"
+        class="w-full rounded-sm object-cover"
+      />
+      <span class="absolute top-1 left-1 bg-blue-700 text-xs px-2 rounded-full font-semibold select-none">
+        MOVIE
+      </span>
+    </div>
+    <p class="mt-1 text-center text-xs font-semibold leading-tight line-clamp-2">
+      Turbo
+    </p>
+  </article>
+</a>
+<!--FINAL-->
 <!--INICIO-->
 <a href="https://lzuser01.github.io/contenido19/index.html"> 
   <article class="flex flex-col items-center">
@@ -98,7 +117,7 @@
       </span>
     </div>
     <p class="mt-1 text-center text-xs font-semibold leading-tight line-clamp-2">
-      Una ni�era a prueba de balas
+      Una niñera a prueba de balas
     </p>
   </article>
 </a>
@@ -136,7 +155,7 @@
       </span>
     </div>
     <p class="mt-1 text-center text-xs font-semibold leading-tight line-clamp-2">
-      La telara�a de Charlotte
+      La telaraï¿½a de Charlotte
     </p>
   </article>
 </a>
@@ -326,7 +345,7 @@
       </span>
     </div>
     <p class="mt-1 text-center text-xs font-semibold leading-tight line-clamp-2">
-      El extra�o mundo de Jack
+      El extraï¿½o mundo de Jack
     </p>
   </article>
 </a>
@@ -1619,7 +1638,7 @@
       </span>
     </div>
     <p class="mt-1 text-center text-xs font-semibold leading-tight line-clamp-2">
-      Scott Pilgrim vs. los ex de la chica de sus sue�os
+      Scott Pilgrim vs. los ex de la chica de sus sueï¿½os
     </p>
   </article>
 </a>
@@ -2474,7 +2493,7 @@
       </span>
     </div>
     <p class="mt-1 text-center text-xs font-semibold leading-tight line-clamp-2">
-      �Patos!
+      ï¿½Patos!
     </p>
   </article>
 </a>
@@ -2550,7 +2569,7 @@
       </span>
     </div>
     <p class="mt-1 text-center text-xs font-semibold leading-tight line-clamp-2">
-      Invencible: Un ni�o fuera de serie
+      Invencible: Un niï¿½o fuera de serie
     </p>
   </article>
 </a>
@@ -3014,7 +3033,7 @@
 
 
 
-        <!-- Puedes duplicar más pósters aquí con diferentes enlaces -->
+        <!-- Puedes duplicar mÃ¡s pÃ³sters aquÃ­ con diferentes enlaces -->
       </div>
     </main>
 
@@ -3036,7 +3055,7 @@
   function limpiarTextoRoto(texto) {
     try {
       let limpio = decodeURIComponent(escape(texto));
-      limpio = limpio.replace(/[^a-zA-Z0-9áéíóúüñÁÉÍÓÚÜÑ¡!¿?.,:;()\[\]{}<>«»"'°\-\s]/g, "");
+      limpio = limpio.replace(/[^a-zA-Z0-9Ã¡Ã©Ã­Ã³ÃºÃ¼Ã±ÃÃ‰ÃÃ“ÃšÃœÃ‘Â¡!Â¿?.,:;()\[\]{}<>Â«Â»"'Â°\-\s]/g, "");
       return limpio;
     } catch (e) {
       return texto;
@@ -3066,7 +3085,7 @@
   // Limpieza inicial
   limpiarNodo(document.body);
 
-  // Observador para cambios futuros (dinámicos)
+  // Observador para cambios futuros (dinÃ¡micos)
   const observer = new MutationObserver(mutations => {
     mutations.forEach(mutation => {
       mutation.addedNodes.forEach(nodo => {
